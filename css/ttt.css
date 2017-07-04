@@ -1,0 +1,36 @@
+.grid {
+
+  width: 219px;
+  /*border-width: thin;
+  border-style: inset;*/
+}
+.grid:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.cell {
+  list-style: none;
+  float: left;
+  height: 67px;
+  width: 67px;
+  background: grey;
+  border-width: 3px;
+  /*border-style: inset;*/
+  border-style: solid;
+}
+.cell:hover {
+  background: yellow;
+}
+.coloredcell {
+  background: red;
+}
+.x,.o{
+  text-align: center;
+  font-size: 60px;
+}
+
+
+.postscript {
+  
+}
